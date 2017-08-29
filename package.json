@@ -1,0 +1,35 @@
+{
+  "name": "gamesly",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.12"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.72.0",
+    "serve-favicon": "~2.4.2",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  },
+  "scripts": {
+    "start": "npm run build && nodemon ./bin/www",
+    "react": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
