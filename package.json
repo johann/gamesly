@@ -26,7 +26,8 @@
     "socket.io-client": "^2.0.3"
   },
   "scripts": {
-    "start": "npm run build && nodemon ./bin/www",
+    "start": "node ./bin/www",
+    "dev": "npm run build && nodemon ./bin/www",
     "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
